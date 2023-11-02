@@ -21,5 +21,5 @@ def mostrar_asignaturas_curso(asignaturas:list)->str:
 if __name__ == "__main__":
     asignaturas = crear_lista_asignaturas()
     mensaje_asignaturas = mostrar_asignaturas_curso(asignaturas)
-
+    "aaa"
     print(mensaje_asignaturas)
