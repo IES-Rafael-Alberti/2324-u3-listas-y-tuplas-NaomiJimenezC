@@ -4,7 +4,7 @@ Escribir un programa que pida al usuario una palabra y muestre por pantalla el n
 #Entrada
 def ingresar_palabra()->str:
     palabra_ingresada = input("Ingrese una palabra: ")
-    while len(palabra_ingresada.strip()) < 1:
+    while len(palabra_ingresada.strip()) < 1 or palabra_ingresada.isalpha() != True:
         palabra_ingresada = input("Ingrese una palabra: ")
     return palabra_ingresada
 #Procesado
