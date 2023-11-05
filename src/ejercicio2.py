@@ -4,10 +4,13 @@ en una lista y la muestre por pantalla el mensaje Yo estudio <asignatura>, donde
 de las asignaturas de la lista.
 """
 
-#Entrada
-#Procesado
-
 #Salida
+def decir_asignatura_estudiada(asignatura:str)->str:
+    return f"Yo estudio {asignatura}"
+
 
 if __name__ == "__main__":
-    print()
+    asignaturas = ["Matemáticas","Física","Química","Historia","Lengua"]
+    
+    for asignatura in asignaturas:
+        print(decir_asignatura_estudiada(asignatura))
